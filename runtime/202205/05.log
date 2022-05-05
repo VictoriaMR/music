@@ -1,0 +1,669 @@
+[runtime] 2022-05-05 15:32:42 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005477s] [QPS：182.58req/s] [MEM：214.27kb] [Files：18]
+D:\www\music\frame\View.php
+38
+D:/www/music/template/newsme/view/layout.php was not exist!
+---------------------------------------------------------------
+[runtime] 2022-05-05 15:49:47 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004464s] [QPS：224.02req/s] [MEM：213.40kb] [Files：18]
+D:\www\music\frame\View.php
+38
+D:/www/music/template/music/view/layout.php was not exist!
+---------------------------------------------------------------
+[runtime] 2022-05-05 15:51:58 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004345s] [QPS：230.14req/s] [MEM：213.40kb] [Files：18]
+D:\www\music\frame\View.php
+38
+D:/www/music/template/music/view/layout.php was not exist!
+---------------------------------------------------------------
+[runtime] 2022-05-05 15:51:59 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003294s] [QPS：303.58req/s] [MEM：213.40kb] [Files：18]
+D:\www\music\frame\View.php
+38
+D:/www/music/template/music/view/layout.php was not exist!
+---------------------------------------------------------------
+[runtime] 2022-05-05 15:55:49 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004365s] [QPS：229.10req/s] [MEM：216.21kb] [Files：19]
+D:\www\music\frame\View.php
+38
+D:/www/music/template/home/view/computer/common/header.php was not exist!
+---------------------------------------------------------------
+[runtime] 2022-05-05 15:56:07 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003230s] [QPS：309.59req/s] [MEM：215.78kb] [Files：19]
+D:\www\music\frame\View.php
+38
+D:/www/music/template/home/view/mobile/common/header.php was not exist!
+---------------------------------------------------------------
+[runtime] 2022-05-05 15:56:07 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003392s] [QPS：294.79req/s] [MEM：215.78kb] [Files：19]
+D:\www\music\frame\View.php
+38
+D:/www/music/template/home/view/mobile/common/header.php was not exist!
+---------------------------------------------------------------
+[runtime] 2022-05-05 15:56:09 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003149s] [QPS：317.56req/s] [MEM：215.78kb] [Files：19]
+D:\www\music\frame\View.php
+38
+D:/www/music/template/home/view/mobile/common/header.php was not exist!
+---------------------------------------------------------------
+[runtime] 2022-05-05 15:58:07 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004242s] [QPS：235.74req/s] [MEM：216.33kb] [Files：19]
+D:\www\music\frame\View.php
+38
+D:/www/music/template/home/view/computer/common/header.php was not exist!
+---------------------------------------------------------------
+[runtime] 2022-05-05 15:58:11 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003536s] [QPS：282.81req/s] [MEM：216.21kb] [Files：19]
+D:\www\music\frame\View.php
+38
+D:/www/music/template/home/view/computer/common/header.php was not exist!
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:01:21 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007988s] [QPS：125.19req/s] [MEM：218.80kb] [Files：22]
+D:\www\music\template\home\view\layout.php
+2
+include(D:/www/music/template/home/view/computer/index/index.php): Failed to open stream: No such file or directory
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:01:50 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004941s] [QPS：202.39req/s] [MEM：216.95kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:01:52 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003766s] [QPS：265.53req/s] [MEM：217.06kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:02:43 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005132s] [QPS：194.85req/s] [MEM：216.95kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:02:44 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003766s] [QPS：265.53req/s] [MEM：216.95kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:06:42 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005792s] [QPS：172.65req/s] [MEM：217.06kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:07:26 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003755s] [QPS：266.31req/s] [MEM：216.91kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:07:34 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004018s] [QPS：248.88req/s] [MEM：217.03kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:07:57 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005894s] [QPS：169.67req/s] [MEM：217.14kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:08:33 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005434s] [QPS：184.03req/s] [MEM：217.14kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:10:40 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007404s] [QPS：135.06req/s] [MEM：217.14kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:12:13 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005523s] [QPS：181.06req/s] [MEM：217.14kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:12:15 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005427s] [QPS：184.26req/s] [MEM：217.14kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:13:42 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.014727s] [QPS：67.90req/s] [MEM：217.14kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:16:27 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007058s] [QPS：141.68req/s] [MEM：215.53kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:16:32 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004937s] [QPS：202.55req/s] [MEM：215.53kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:26:08 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006526s] [QPS：153.23req/s] [MEM：215.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:26:10 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005084s] [QPS：196.69req/s] [MEM：215.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:42:51 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006422s] [QPS：155.71req/s] [MEM：217.15kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:51:54 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006538s] [QPS：152.95req/s] [MEM：217.19kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:52:05 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004840s] [QPS：206.61req/s] [MEM：217.23kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:53:28 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005606s] [QPS：178.38req/s] [MEM：217.23kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:53:37 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004689s] [QPS：213.27req/s] [MEM：217.23kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:55:11 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006786s] [QPS：147.37req/s] [MEM：217.23kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:55:13 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005889s] [QPS：169.80req/s] [MEM：217.23kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:55:33 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005487s] [QPS：182.25req/s] [MEM：217.23kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:57:05 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005035s] [QPS：198.61req/s] [MEM：217.27kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:57:07 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004763s] [QPS：209.96req/s] [MEM：217.27kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:59:07 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007055s] [QPS：141.74req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 16:59:09 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004992s] [QPS：200.32req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:00:00 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005094s] [QPS：196.32req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:00:25 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004876s] [QPS：205.08req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:00:27 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005181s] [QPS：193.01req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:04:02 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006302s] [QPS：158.68req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:07:09 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006513s] [QPS：153.54req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:07:11 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005085s] [QPS：196.66req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:07:36 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005618s] [QPS：178.00req/s] [MEM：235.44kb] [Files：25]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:07:46 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.002910s] [QPS：343.63req/s] [MEM：208.95kb] [Files：16]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/service/member/Uuid.php to autoload app/service/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:07:48 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003254s] [QPS：307.32req/s] [MEM：208.95kb] [Files：16]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/service/member/Uuid.php to autoload app/service/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:07:49 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.002716s] [QPS：368.18req/s] [MEM：208.95kb] [Files：16]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/service/member/Uuid.php to autoload app/service/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:07:49 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.002838s] [QPS：352.37req/s] [MEM：208.95kb] [Files：16]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/service/member/Uuid.php to autoload app/service/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:07:49 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.002929s] [QPS：341.42req/s] [MEM：208.95kb] [Files：16]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/service/member/Uuid.php to autoload app/service/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:07:50 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003393s] [QPS：294.71req/s] [MEM：208.95kb] [Files：16]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/service/member/Uuid.php to autoload app/service/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:07:50 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003017s] [QPS：331.46req/s] [MEM：208.95kb] [Files：16]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/service/member/Uuid.php to autoload app/service/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:06 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005150s] [QPS：194.18req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:09 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003267s] [QPS：306.09req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:10 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004115s] [QPS：243.01req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:10 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003152s] [QPS：317.25req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:11 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.002967s] [QPS：337.05req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:11 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003009s] [QPS：332.33req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:12 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003196s] [QPS：312.89req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:12 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003213s] [QPS：311.22req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:12 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003287s] [QPS：304.22req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:12 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003188s] [QPS：313.69req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:13 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003134s] [QPS：319.08req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:14 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.002910s] [QPS：343.65req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:14 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003695s] [QPS：270.64req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:16 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.003179s] [QPS：314.56req/s] [MEM：216.29kb] [Files：18]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/model/member/Uuid.php to autoload app/model/member/Uuid was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:33 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.008924s] [QPS：112.06req/s] [MEM：363.81kb] [Files：32]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:34 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005096s] [QPS：196.23req/s] [MEM：217.21kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:34 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005285s] [QPS：189.21req/s] [MEM：217.21kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:34 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005534s] [QPS：180.70req/s] [MEM：217.21kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:09:34 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004715s] [QPS：212.09req/s] [MEM：217.21kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:11:09 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005369s] [QPS：186.26req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:14:42 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006052s] [QPS：165.23req/s] [MEM：217.63kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:14:59 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005214s] [QPS：191.78req/s] [MEM：217.63kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:15:01 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005386s] [QPS：185.66req/s] [MEM：217.63kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:15:31 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004974s] [QPS：201.04req/s] [MEM：217.63kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:15:33 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004765s] [QPS：209.86req/s] [MEM：217.63kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:16:01 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004936s] [QPS：202.59req/s] [MEM：217.63kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:16:15 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005231s] [QPS：191.17req/s] [MEM：217.63kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:16:30 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005040s] [QPS：198.41req/s] [MEM：217.63kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:18:40 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006310s] [QPS：158.48req/s] [MEM：217.67kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:19:49 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005467s] [QPS：182.92req/s] [MEM：217.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:19:50 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005170s] [QPS：193.42req/s] [MEM：217.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:19:56 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005272s] [QPS：189.68req/s] [MEM：217.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:20:17 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004919s] [QPS：203.29req/s] [MEM：217.18kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:20:17 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004874s] [QPS：205.17req/s] [MEM：217.18kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:20 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006302s] [QPS：158.68req/s] [MEM：217.74kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:28 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005248s] [QPS：190.55req/s] [MEM：217.74kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:36 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004851s] [QPS：206.15req/s] [MEM：217.74kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:40 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005215s] [QPS：191.76req/s] [MEM：217.89kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:40 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004754s] [QPS：210.36req/s] [MEM：217.89kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:41 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005102s] [QPS：196.00req/s] [MEM：217.89kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:42 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005209s] [QPS：191.98req/s] [MEM：217.89kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:42 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005215s] [QPS：191.76req/s] [MEM：217.89kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:43 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005197s] [QPS：192.42req/s] [MEM：217.89kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:43 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004864s] [QPS：205.59req/s] [MEM：217.89kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:44 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004892s] [QPS：204.41req/s] [MEM：217.89kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:46 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/category.html
+[Time：0.002063s] [QPS：484.72req/s] [MEM：160.01kb] [Files：10]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/controller/home/Category.php to autoload app/controller/home/Category was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:21:57 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004989s] [QPS：200.44req/s] [MEM：217.78kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:22:00 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005877s] [QPS：170.15req/s] [MEM：217.89kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:23:08 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005213s] [QPS：191.83req/s] [MEM：217.89kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:23:11 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005599s] [QPS：178.60req/s] [MEM：217.89kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:23:11 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/category.html
+[Time：0.002114s] [QPS：473.02req/s] [MEM：160.01kb] [Files：10]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/controller/home/Category.php to autoload app/controller/home/Category was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:23:13 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.004964s] [QPS：201.46req/s] [MEM：217.78kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:26:52 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006637s] [QPS：150.67req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:29:41 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.008368s] [QPS：119.51req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:29:57 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006014s] [QPS：166.28req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:30:50 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005511s] [QPS：181.45req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:31:58 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006861s] [QPS：145.75req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:33:12 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005757s] [QPS：173.70req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:33:13 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005533s] [QPS：180.73req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:33:13 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005164s] [QPS：193.64req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:35:43 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007137s] [QPS：140.11req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:35:44 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/category.html
+[Time：0.002419s] [QPS：413.39req/s] [MEM：160.01kb] [Files：10]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/controller/home/Category.php to autoload app/controller/home/Category was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:35:47 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005644s] [QPS：177.18req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:35:48 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005584s] [QPS：179.08req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 17:43:57 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006956s] [QPS：143.76req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:05:25 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007072s] [QPS：141.40req/s] [MEM：217.13kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:06:44 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005711s] [QPS：175.10req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:07:09 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005986s] [QPS：167.06req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:08:30 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006868s] [QPS：145.60req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:09:16 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005556s] [QPS：179.99req/s] [MEM：217.25kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:09:20 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005787s] [QPS：172.80req/s] [MEM：217.13kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:09:23 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005225s] [QPS：191.39req/s] [MEM：217.25kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:09:23 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005156s] [QPS：193.95req/s] [MEM：217.25kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:09:28 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006422s] [QPS：155.71req/s] [MEM：233.83kb] [Files：25]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:10:57 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006844s] [QPS：146.11req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:11:23 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005687s] [QPS：175.84req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:11:55 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006232s] [QPS：160.46req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:12:26 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005425s] [QPS：184.33req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:13:32 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.008110s] [QPS：123.30req/s] [MEM：217.92kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:35:41 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006756s] [QPS：148.02req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:36:02 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005441s] [QPS：183.79req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:36:12 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005638s] [QPS：177.36req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:36:28 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005609s] [QPS：178.28req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:36:45 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005825s] [QPS：171.67req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:38:24 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007704s] [QPS：129.81req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:41:28 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007026s] [QPS：142.33req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:48:46 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007985s] [QPS：125.24req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:48:56 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006114s] [QPS：163.56req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:49:07 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005447s] [QPS：183.58req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:49:25 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005200s] [QPS：192.31req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:49:28 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005320s] [QPS：187.97req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:49:50 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006300s] [QPS：158.72req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:49:55 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005471s] [QPS：182.78req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:55:13 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007502s] [QPS：133.30req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:55:17 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005007s] [QPS：199.73req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:56:21 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005398s] [QPS：185.25req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:56:32 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005004s] [QPS：199.84req/s] [MEM：217.87kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:57:28 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007684s] [QPS：130.14req/s] [MEM：235.99kb] [Files：25]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:57:31 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/site.webmanifest
+[Time：0.002552s] [QPS：391.84req/s] [MEM：158.16kb] [Files：10]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/controller/home/Site.webmanifest.php to autoload app/controller/home/Site.webmanifest was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:57:34 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.008534s] [QPS：117.18req/s] [MEM：364.24kb] [Files：32]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:57:38 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005246s] [QPS：190.62req/s] [MEM：217.52kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:57:39 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005155s] [QPS：193.99req/s] [MEM：217.52kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:57:45 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006934s] [QPS：144.22req/s] [MEM：217.55kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:59:27 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005416s] [QPS：184.64req/s] [MEM：217.67kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 18:59:54 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007618s] [QPS：131.27req/s] [MEM：233.29kb] [Files：25]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:00:12 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.026970s] [QPS：37.08req/s] [MEM：361.42kb] [Files：32]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:00:28 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005489s] [QPS：182.19req/s] [MEM：214.95kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:00:29 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/category.html
+[Time：0.002209s] [QPS：452.70req/s] [MEM：157.09kb] [Files：10]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/controller/home/Category.php to autoload app/controller/home/Category was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:00:31 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005780s] [QPS：173.01req/s] [MEM：214.95kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:02:03 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006535s] [QPS：153.02req/s] [MEM：214.95kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:02:09 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006384s] [QPS：156.64req/s] [MEM：217.52kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:02:11 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/site.webmanifest
+[Time：0.002278s] [QPS：438.96req/s] [MEM：158.16kb] [Files：10]
+D:\www\music\frame\App.php
+61
+D:/www/music/app/controller/home/Site.webmanifest.php to autoload app/controller/home/Site.webmanifest was failed!
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:02:15 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005250s] [QPS：190.48req/s] [MEM：217.64kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:05:53 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007097s] [QPS：140.90req/s] [MEM：217.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:07:45 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007067s] [QPS：141.50req/s] [MEM：217.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:09:03 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005989s] [QPS：166.97req/s] [MEM：217.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:10:24 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007357s] [QPS：135.92req/s] [MEM：217.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:13:01 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007464s] [QPS：133.98req/s] [MEM：217.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:13:11 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006288s] [QPS：159.03req/s] [MEM：217.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:13:27 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005715s] [QPS：174.97req/s] [MEM：217.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:16:40 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.008538s] [QPS：117.12req/s] [MEM：217.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:19:09 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.008682s] [QPS：115.18req/s] [MEM：217.70kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:20:25 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006854s] [QPS：145.90req/s] [MEM：217.64kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:21:10 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.009101s] [QPS：109.88req/s] [MEM：217.64kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:21:50 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006672s] [QPS：149.88req/s] [MEM：217.64kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:22:38 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005287s] [QPS：189.15req/s] [MEM：217.64kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:24:09 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007972s] [QPS：125.44req/s] [MEM：217.64kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:24:10 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005693s] [QPS：175.66req/s] [MEM：217.64kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:25:57 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.007950s] [QPS：125.79req/s] [MEM：217.64kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:26:34 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.006261s] [QPS：159.72req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:27:29 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.005941s] [QPS：168.32req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------
+[runtime] 2022-05-05 19:28:16 [server addr] 127.0.0.1 [remote addr] 127.0.0.1 uri: www.music.cn/
+[Time：0.009071s] [QPS：110.24req/s] [MEM：217.73kb] [Files：24]
+---------------------------------------------------------------

@@ -1,0 +1,11 @@
+/.idea
+/config/env.php
+/config/domain.php
+/vendor
+/runtime/*
+/storage/*
+/.env
+/composer.lock
+/template/*/static
+/template/*/sitemap
+/template/*/cache
