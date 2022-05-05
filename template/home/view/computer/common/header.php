@@ -24,7 +24,10 @@ const URI = '<?php echo APP_DOMAIN;?>';
 </script>
 <div class="top-nav">
 	<div class="container">
-		<div></div>
+		<div class="left f14">
+			<strong>APE</strong>、<strong>FLAC</strong>、<strong>WAV</strong>、<strong>DSD</strong>、<strong>Hi-Res</strong>、<strong>DTS</strong>
+			<span>高品质无损音乐下载</span>
+		</div>
 		<div class="right">
 			<ul>
 				<li>
@@ -38,5 +41,16 @@ const URI = '<?php echo APP_DOMAIN;?>';
 				</li>
 			</ul>
 		</div>
+		<div class="clear"></div>
 	</div>
 </div>
+<header class="container">
+	<div id="top-header">
+		<div class="logo">
+			<img src="<?php echo siteUrl('image/computer/logo.png');?>">
+		</div>
+		<div class="right free-share">
+			<span class="f38 fb cw">FREE</span>
+		</div>
+	</div>
+</header>

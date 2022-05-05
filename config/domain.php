@@ -6,7 +6,7 @@ return [
 		'cache' => false,
 		'view_suffix' => 'html',
 		'path' => 'home',
-		'name' => '无损音乐® | 无损音乐免费下载',
+		'name' => '无损音乐下载 - 尽在无损音乐网®',
 		'site_id' => '80'
 	],
 	'shop.admin.cn' => [
