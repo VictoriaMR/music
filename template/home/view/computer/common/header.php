@@ -52,7 +52,7 @@ const URI = '<?php echo APP_DOMAIN;?>';
 		</div>
 	</header>
 	<nav id="middle-nav">
-		<div class="left category-item">
+		<div class="content-left category-item">
 			<div class="left">
 				<a href="<?php echo url();?>" title="首页"<?php echo isRouter('Index', 'index')?' class="active"':'';?>>
 					<span class="iconfont icon-shouye f30"></span>
@@ -84,9 +84,10 @@ const URI = '<?php echo APP_DOMAIN;?>';
 			</div>
 			<div class="clear"></div>
 		</div>
-		<div class="right search-item">
+		<div class="content-right search-item">
 			<input type="text" name="search" class="input" placeholder="搜索歌手、歌曲名称" autocomplete="off">
 			<span class="iconfont icon-sousuo"></span>
 		</div>
+		<div class="clear"></div>
 	</nav>
 </div>

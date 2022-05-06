@@ -1,12 +1,3 @@
-#singer-info-page .content-left {
-    width: 70%;
-    max-width: calc(100% - 250px);
-    padding-right: 10px;
-}
-#singer-info-page .content-right {
-    width: 30%;
-    min-width: 250px;
-}
 #singer-info-page .info-content {
     border-bottom: 3px solid #39f;
     border-top: 3px solid #39f;
