@@ -1,0 +1,20 @@
+#category-page .content-left {
+    width: 70%;
+    max-width: calc(100% - 250px);
+    padding-right: 10px;
+}
+#category-page .content-right {
+    width: 30%;
+    min-width: 250px;
+}
+#category-page .item {
+    padding: 20px 10px;
+    border-bottom: 1px dashed #ccc;
+}
+#category-page .category-list a {
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+}

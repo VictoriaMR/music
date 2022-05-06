@@ -13,7 +13,7 @@ final class Query
 	private $_having='';
 	private $_offset;
 	private $_limit=1;
-	private $_specialKey = ['status', 'name', 'order', 'system', 'type', 'rank', 'show'];
+	private $_specialKey = ['status', 'name', 'order', 'system', 'type', 'rank', 'show', 'group'];
 
 	public function database($database=null)
 	{
@@ -90,7 +90,15 @@ final class Query
 	public function field($columns)
 	{
 		if (empty($columns)) return $this;
-		$this->_columns .= trim($columns).',';
+		if (!is_array($columns)) {
+			$columns = array_map('trim', explode(',', $columns));
+		}
+		$columns = array_filter($columns);
+		if (empty($columns)) return $this;
+		foreach ($columns as $key=>$value) {
+			$columns[$key] = $this->formatKey($value);
+		}
+		$this->_columns .= trim(implode(',', $columns)).',';
 		return $this;
 	}
 

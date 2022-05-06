@@ -201,3 +201,12 @@
   content: "\e661";
 }
 
+.icon {
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  background: url(/image/icon.png) no-repeat;
+}
+.icon-right {
+  background-position: -23px -39px;
+}

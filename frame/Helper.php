@@ -36,6 +36,21 @@ function session(){
 function router(){
 	return \App::make('frame/Router');
 }
+function isRouter($path, $func, $params=[]){
+	if ($path != \App::get('router', 'path')) return false;
+	if ($func != \App::get('router', 'func')) return false;
+	if (!empty($params)) {
+		$getParam = iget();
+		foreach ($params as $key=>$value) {
+			if (is_numeric($key)) {
+				if (array_search($value, $getParam) === false) return false;
+			} else {
+				if (!isset($getParam[$key]) || $getParam[$key] != $value) return false;
+			}
+		}
+	}
+	return true;
+}
 function request(){
 	return \App::make('frame/Request');
 }
@@ -51,8 +66,8 @@ function db($db=null){
 function page($size=null, $total=null, $current=null){
 	return \App::make('frame/Paginator')->make($size, $total, $current);
 }
-function url($url=null, $param=null, $domain=null) {
-    return router()->buildUrl($url, $param, $domain);
+function url($url=null, $param=null, $name=null) {
+    return router()->buildUrl($url, $param, $name);
 }
 function siteUrl($name){
 	return APP_DOMAIN.$name.'?v='.config('env', 'APP_VERSION');

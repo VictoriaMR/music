@@ -33,21 +33,21 @@
     var open     = document.getElementById('think_page_trace_open');
     var close    = document.getElementById('think_page_trace_close');
     var trace    = document.getElementById('think_page_trace_tab');
-    var cookie   = document.cookie.match(/thinkphp_show_page_trace=(\d\|\d)/);
-    var history  = (cookie && typeof cookie[1] != 'undefined' && cookie[1].split('|')) || [0,0];
+    var status   = window.sessionStorage.getItem('thinkphp_show_page_trace');
+    var history  = (status && status.split('|')) || [0,0];
     open.onclick = function(){
         trace.style.display = 'block';
         this.style.display = 'none';
         close.parentNode.style.display = 'block';
         history[0] = 1;
-        document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+        window.sessionStorage.setItem('thinkphp_show_page_trace', history.join('|'));
     }
     close.onclick = function(){
         trace.style.display = 'none';
         this.parentNode.style.display = 'none';
         open.style.display = 'block';
         history[0] = 0;
-        document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+        window.sessionStorage.setItem('thinkphp_show_page_trace', history.join('|'));
     }
     for(var i = 0; i < tab_tit.length; i++){
         tab_tit[i].onclick = (function(i){
@@ -59,7 +59,7 @@
                 tab_cont[i].style.display = 'block';
                 tab_tit[i].style.color = '#000';
                 history[1] = i;
-                document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+                window.sessionStorage.setItem('thinkphp_show_page_trace', history.join('|'));
             }
         })(i)
     }

@@ -3,7 +3,7 @@ return [
 	'default' => [
 		'db_host'	  => config('env', 'DB_HOST', '127.0.0.1'),
 		'db_port'	  => config('env', 'DB_PORT', '3306'),
-		'db_database' => config('env', 'DB_DATABASE', 'shop'),
+		'db_database' => config('env', 'DB_DATABASE', 'music'),
 		'db_username' => config('env', 'DB_USERNAME', 'root'),
 		'db_password' => config('env', 'DB_PASSWORD', 'root'),
 		'db_charset'  => config('env', 'DB_CHARSET', 'utf8mb4'),
