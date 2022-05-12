@@ -290,7 +290,7 @@ final class Query
 		if (config('env', 'APP_DEBUG')) {
 			$GLOBALS['exec_sql'][] = $sql;
 		}
-		$conn = db($this->_database);
+		$conn = make('frame/Connection')->setDb($this->_database);
 		if ($stmt = $conn->query($sql)) {
 			if (is_bool($stmt)) {
 				return $stmt;
@@ -329,5 +329,10 @@ final class Query
 	public function commit()
 	{
 		return $this->getQuery('commit');
+	}
+
+	public function __call($func, $arg)
+	{
+		return make('frame/Connection')->setDb($this->_database)->$func(...$arg);
 	}
 }

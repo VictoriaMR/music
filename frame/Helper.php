@@ -61,7 +61,7 @@ function cache($db=0){
 	return \App::make('frame/Redis')->setDb($db, true);
 }
 function db($db=null){
-	return \App::make('frame/Connection')->setDb($db);
+	return \App::make('frame/Query')->database($db);
 }
 function page($size=null, $total=null, $current=null){
 	return \App::make('frame/Paginator')->make($size, $total, $current);
@@ -174,17 +174,11 @@ function strTrim($str){
 function getUniqueName(){
 	return str_replace([':', ' ', '-', '0.'], '', now().explode(' ', microtime())[0]);
 }
-function lanId($type='id'){
-	return session()->get('site_language_'.$type, $type=='code'?'en':1);
-}
 function siteId(){
 	return \App::get('base_info', 'site_id');
 }
 function userId(){
 	return session()->get(APP_TEMPLATE_TYPE.'_info', 0, 'mem_id');
-}
-function currencyId(){
-	return session()->get('site_currency_id', 'USD');
 }
 function uuId(){
 	return \App::make('frame/Cookie')->get('uuid');

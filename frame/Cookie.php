@@ -27,7 +27,6 @@ class Cookie
 					$memberService = make('app/service/Member');
 				}
 				$memberService->loginById($info['mem_id']);
-				session()->set('site_language_id', $info['lan_id']);
 			}
 			session()->set('setcookie', true);
 		}
@@ -41,16 +40,10 @@ class Cookie
 			'site_id' => siteId(),
 		];
 		if ($uuidService->getCountData($where)) {
-			return false;
+			return $uuidService->where($where)->update(['mem_id'=>$memId]);
 		}
 		$where['mem_id'] = $memId;
-		$where['lan_id'] = lanId();
 		return $uuidService->insert($where);
-	}
-
-	public function updateLanguage()
-	{
-		return make('app/service/member/Uuid')->updateData($this->get('uuid'), ['lan_id'=>lanId()]);
 	}
 
 	public function set($name, $value='', $option=null)

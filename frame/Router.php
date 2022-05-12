@@ -6,6 +6,7 @@ final class Router
 {
 	public function analyze()
 	{
+		array_shift($_GET);
 		$pathInfo = trim($_SERVER['REQUEST_URI'], '/');
 		$router = [];
 		if (empty($pathInfo)) {
@@ -15,26 +16,31 @@ final class Router
 			$pathInfo = parse_url($pathInfo);
 			if (!empty($pathInfo['path'])) {
 				$pathInfo = explode('/', $pathInfo['path']);
-				$pathInfo[0] = str_replace('.html', '', $pathInfo[0]);
-				$tempInfo = explode('-', $pathInfo[0]);
-				if (count($tempInfo) > 1) {
-					$router['path'] = isset($tempInfo[0]) ? ucfirst($tempInfo[0]) : 'Index';
-					$router['func'] = $tempInfo[1] ?? 'index';
-					if (isset($tempInfo[2])) {
-						if (in_array($tempInfo[2], ['ape', 'flac', 'wav', 'chinese', 'western'])) $_GET['key'] = $tempInfo[2];
-						else $_GET['id'] = $tempInfo[2];
-					}
-					$tempIndex = array_search('page', $tempInfo);
-					if ($tempIndex !== false) {
-						$_GET['page'] = $tempInfo[$tempIndex+1]??1;
-					}
-					$tempIndex = array_search('size', $tempInfo);
-					if ($tempIndex !== false) {
-						$_GET['size'] = $tempInfo[$tempIndex+1]??20;
-					}
+				if (IS_ADMIN) {
+					$router['path'] = isset($pathInfo[0]) ? ucfirst($pathInfo[0]) : 'Index';
+					$router['func'] = $pathInfo[1] ?? 'index';
 				} else {
-					$router['path'] = ucfirst($tempInfo[0]);
-					$router['func'] = 'index';
+					$pathInfo[0] = str_replace('.html', '', $pathInfo[0]);
+					$tempInfo = explode('-', $pathInfo[0]);
+					if (count($tempInfo) > 1) {
+						$router['path'] = isset($tempInfo[0]) ? ucfirst($tempInfo[0]) : 'Index';
+						$router['func'] = $tempInfo[1] ?? 'index';
+						if (isset($tempInfo[2])) {
+							if (in_array($tempInfo[2], ['ape', 'flac', 'wav', 'chinese', 'western'])) $_GET['key'] = $tempInfo[2];
+							else $_GET['id'] = $tempInfo[2];
+						}
+						$tempIndex = array_search('page', $tempInfo);
+						if ($tempIndex !== false) {
+							$_GET['page'] = $tempInfo[$tempIndex+1]??1;
+						}
+						$tempIndex = array_search('size', $tempInfo);
+						if ($tempIndex !== false) {
+							$_GET['size'] = $tempInfo[$tempIndex+1]??20;
+						}
+					} else {
+						$router['path'] = ucfirst($tempInfo[0]);
+						$router['func'] = 'index';
+					}
 				}
 			}
 		}
@@ -44,18 +50,26 @@ final class Router
 	public function buildUrl($url=null, $param=null, $name=null)
 	{
 		if (empty($url)) return '/';
-
-		if (!empty($param)) {
-			if (is_array($param))
-				$url .= $this->setParam($param);
-			else
-				$url .= $this->nameFormat($param);
+		if (IS_ADMIN) {
+			if (!empty($param)) {
+				if (is_array($param)) {
+					$param = http_build_query($param);
+				}
+				$url .= '?'.$param;
+			}
+		} else {
+			if (!empty($param)) {
+				if (is_array($param))
+					$url .= $this->setParam($param);
+				else
+					$url .= $this->nameFormat($param);
+			}
+			if (!empty($name)) {
+				$url .= $this->nameFormat($name);
+			}
+			$viewSuffix = \App::get('router', 'view_suffix');
+			if (!empty($url) && $viewSuffix) $url .= '.'.$viewSuffix;
 		}
-		if (!empty($name)) {
-			$url .= $this->nameFormat($name);
-		}
-		$viewSuffix = \App::get('router', 'view_suffix');
-		if (!empty($url) && $viewSuffix) $url .= '.'.$viewSuffix;
 		return APP_DOMAIN.$url;
 	}
 

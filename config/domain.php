@@ -9,7 +9,7 @@ return [
 		'name' => '无损音乐下载 - 尽在无损音乐网®',
 		'site_id' => '80'
 	],
-	'shop.admin.cn' => [
+	'music.admin.cn' => [
 		'type' => 'admin',
 		'cache' => false,
 		'view_suffix' => '',
