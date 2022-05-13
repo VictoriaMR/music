@@ -80,7 +80,7 @@
         	<?php }?>
         </tbody>
     </table>
-	<?php echo page($size, $total);?>
+	<?php echo adminPage($size, $total);?>
 </div>
 <div id="dealbox" class="hidden">
 	<div class="mask"></div>

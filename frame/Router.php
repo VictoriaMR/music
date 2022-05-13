@@ -51,6 +51,7 @@ final class Router
 	{
 		if (empty($url)) return '/';
 		if (IS_ADMIN) {
+			$url = lcfirst($url);
 			if (!empty($param)) {
 				if (is_array($param)) {
 					$param = http_build_query($param);

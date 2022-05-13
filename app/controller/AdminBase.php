@@ -4,9 +4,10 @@ namespace app\controller;
 
 class AdminBase extends Base
 {
-	protected $_nav;
-	protected $_tag;
-	protected $_arr;
+	protected $_nav = [];
+	protected $_tag = [];
+	protected $_ignore = [];
+	protected $_arr = [];
 	protected $_default;
 	protected $_tagShow = true;
 
@@ -20,6 +21,9 @@ class AdminBase extends Base
 					$this->_nav = $this->_arr;
 				} else {
 					$this->_nav = array_merge(['default' => $this->_default], $this->_arr);
+				}
+				foreach ($this->_ignore as $value) {
+					unset($this->_tag[$value]);
 				}
 				$this->assign('_tag', $this->_tag);
 				$this->assign('_nav', $this->_nav);

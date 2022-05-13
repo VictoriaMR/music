@@ -287,4 +287,6 @@ $(function(){
 	});
 	$('#progressing').show();
 	progressing(20);
+	//图标缓冲
+	$('img.lazyload').lazyload();
 });

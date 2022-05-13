@@ -2,28 +2,28 @@
 
 namespace frame;
 
-class Paginator 
+class AdminPage 
 {
 	protected $size = 20;
 	protected $total = 0;
 	protected $current = 1;
 	protected $config = [
-		'global' => '<nav><ul class="pagination"><li  class="disabled"><span>合计 {total} 条, 每页 {size} 条, 共 {totalPage} 页</span></li>{first}{prev}{paging}{next}{last}</ul></nav>',
+		'global' => '<nav><ul class="pagination"><li class="disabled"><span>合计 {total} 条, 每页 {size} 条, 共 {totalPage} 页</span></li>{first}{prev}{paging}{next}{last}</ul></nav>',
 		'first' => [
 			'enabled' => '<li><a href="{url}">{text}</a></li>',
-			'disabled' => '<li  class="disabled"><span>{text}</span></li>',
+			'disabled' => '<li class="disabled"><span>{text}</span></li>',
 		],
 		'prev' => [
 			'enabled' => '<li><a href="{url}">{text}</a></li>',
-			'disabled' => '<li  class="disabled"><span>{text}</span></li>',
+			'disabled' => '<li class="disabled"><span>{text}</span></li>',
 		],
 		'next' => [
 			'enabled' => '<li><a href="{url}">{text}</a></li>',
-			'disabled' => '<li  class="disabled"><span>{text}</span></li>',
+			'disabled' => '<li class="disabled"><span>{text}</span></li>',
 		],
 		'last' => [
 			'enabled' => '<li><a href="{url}">{text}</a></li>',
-			'disabled' => '<li  class="disabled"><span>{text}</span></li>',
+			'disabled' => '<li class="disabled"><span>{text}</span></li>',
 		],
 		'paging' => '<li><a href="{url}">{text}</a></li>',
 		'current' => '<li class="active"><span>{text}</span></li>',
@@ -53,7 +53,7 @@ class Paginator
 		//总页数
 		$totalPage = ceil($this->total / $this->size);
 		if ($totalPage==0) {
-			$next = $next = strtr($this->config['next']['disabled'],['{url}'=>'','{text}'=>$this->config['text']['next']]);
+			$next = strtr($this->config['next']['disabled'],['{url}'=>'','{text}'=>$this->config['text']['next']]);
 			$last = strtr($this->config['last']['disabled'],['{url}'=>'','{text}'=>$this->config['text']['last']]);
 		} else {
 			if ($this->current < $totalPage) {
@@ -67,9 +67,30 @@ class Paginator
 
 		$pageStr = '';
 		if ($this->total > 0) {
-			$totalPage = ceil($this->total / $this->size);
-			for ($i=1; $i<= $totalPage; $i++) {
-				$pageStr .= strtr($this->config[$i == $this->current ? 'current' : 'paging'], [
+			$total = 9;
+			$prevPage = $this->current - 4;
+			$prevPage = $prevPage > 0 ? $prevPage : 1;
+			$afterPage = $this->current + 4 + (4 - $this->current + $prevPage);
+			$afterPage = $afterPage > $totalPage ? $totalPage : $afterPage;
+
+			if ($afterPage - $this->current < 4) {
+				$prevPage = $prevPage - (4 - $afterPage + $this->current);
+			}
+			$prevPage = $prevPage > 0 ? $prevPage : 1;
+
+			for ($i=$prevPage; $i<$this->current; $i++) {
+				$pageStr .= strtr($this->config['paging'], [
+					'{url}' => $this->url($i),
+					'{text}' => $i
+				]);
+			}
+			$pageStr .= strtr($this->config['current'], [
+				'{url}' => $this->url($this->current),
+				'{text}' => $this->current
+			]);
+			//当前页
+			for ($i=$this->current+1; $i<=$afterPage; $i++) {
+				$pageStr .= strtr($this->config['paging'], [
 					'{url}' => $this->url($i),
 					'{text}' => $i
 				]);
@@ -94,7 +115,8 @@ class Paginator
 		$page = $page > 1 ? $page : 1;
 		$param = iget();
 		$param['page'] = $page;
-		return url().'?'.http_build_query($param);
+		$router = \App::get('router');
+		return url($router['path'].($router['func']=='index'?'':'/'.$router['func'])).'?'.http_build_query($param);
 	}
 
 	protected function setSize($size)

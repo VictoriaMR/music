@@ -66,6 +66,9 @@ function db($db=null){
 function page($size=null, $total=null, $current=null){
 	return \App::make('frame/Paginator')->make($size, $total, $current);
 }
+function adminPage($size=null, $total=null, $current=null){
+	return \App::make('frame/AdminPage')->make($size, $total, $current);
+}
 function url($url=null, $param=null, $name=null) {
     return router()->buildUrl($url, $param, $name);
 }
@@ -77,6 +80,7 @@ function mediaUrl($url, $width=''){
 		$ext = pathinfo($url, PATHINFO_EXTENSION);
 		$url = str_replace('.'.$ext, DS.$width.'.'.$ext, $url);
 	}
+	$url = trim($url, DS);
 	return APP_DOMAIN.$url.'?v='.config('env', 'APP_VERSION');
 }
 function isCli(){
