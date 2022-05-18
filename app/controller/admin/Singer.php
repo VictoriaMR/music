@@ -17,6 +17,14 @@ class Singer extends AdminBase
 
 	public function index()
 	{
+		if (request()->isPost()) {
+			$opn = ipost('opn');
+			if (in_array($opn, ['editInfo'])) {
+				$this->$opn();
+			}
+			$this->error('非法请求');
+		}
+
 		html()->addCss();
 		html()->addJs();
 		$id = (int)iget('id');
@@ -48,6 +56,30 @@ class Singer extends AdminBase
 		$this->assign('list', $list ?? []);
 		$this->_init();
 		$this->view();
+	}
+
+	protected function editInfo()
+	{
+		$id = (int)ipost('id');
+		$avatar = trim(ipost('avatar', ''));
+		$data = [];
+		if (!empty($avatar)) {
+			$data['avatar'] = $avatar;
+		}
+		if (empty($data)) {
+			$this->error('参数不正确');
+		}
+		$singer = make('app/service/singer/Singer');
+		if ($id > 0) {
+			$res = $singer->updateData($id, $data);
+		} else {
+			$res = $singer->insertGetId($data);
+		}
+		if ($res) {
+			$this->success('操作成功');
+		} else {
+			$this->error('操作失败');
+		}
 	}
 
 	public function info()

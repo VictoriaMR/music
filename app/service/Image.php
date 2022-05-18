@@ -167,20 +167,11 @@ class Image
 		}
 		$srcImage = $imagecreatefromfunc($src);
 
-		//计算有效长度
-		if ($outputWidth > $srcImageWidth && $outputHeight > $srcImageHeight) {
-			if ($srcImageWidth > $srcImageHeight) {
-				$outputWidth = $outputHeight = $srcImageWidth;
-			} else {
-				$outputWidth = $outputHeight = $srcImageHeight;
-			}
-		} 
-
 		//创建画布
 		$returnPic = imagecreatetruecolor($outputWidth, $outputHeight);
 
 		//returnPic-输出图,img-拷贝的原图,dst_x-目标X坐标,dst_y-目标Y坐标,src_x-源X坐标,src_y-源Y坐标,dst_w-目标宽,dst_h-目标高,src_w-源宽,src_h-源高
-		$dst_x = $dst_y = $src_x = $src_y = $diff_x = $diff_y = 0;
+		$src_x = $src_y = $diff_x = $diff_y = 0;
 
 		$src_w = $srcImageWidth;
 		$src_h = $srcImageHeight;
@@ -190,20 +181,22 @@ class Image
 		} else {
 			$ratio = $outputHeight / $srcImageHeight;
 		}
+		//缩放后的真实宽高
 		$real_h = $srcImageHeight * $ratio;
-		//上下留白
-		$diff_y = ($outputHeight - $real_h) / 2;
-
 		$real_w = $srcImageWidth * $ratio;
-		//左右留白
-		$diff_x = ($outputWidth - $real_w) / 2;
+
+		$squareWidth = $real_w > $real_h ? $real_h : $real_w;
+
+		//目标起始
+		$diff_y = ($real_h - $squareWidth) / 2;
+		$diff_x = ($real_w - $squareWidth) / 2;
 
 		imagealphablending($returnPic, true);
 		imagesavealpha($returnPic, true);
 		$white = imagecolorallocatealpha($returnPic, 255, 255, 255, 127);//白色
 		imagefill($returnPic, 0, 0, $white);
 
-		imagecopyresampled($returnPic, $srcImage, $dst_x + $diff_x, $dst_y + $diff_y, $src_x, $src_y, $real_w, $real_h, $src_w, $src_h);
+		imagecopyresampled($returnPic, $srcImage, $diff_x, $diff_y, $src_x, $src_y, $real_w, $real_h, $src_w, $src_h);
 		$dirPath = dirname($moveto);
 		if (!is_dir($dirPath)) {
 			mkdir($dirPath, 0755, true);

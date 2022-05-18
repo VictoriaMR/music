@@ -47,7 +47,7 @@
                 <td><?php echo $value['group'];?></td>
                 <td>
                     <div class="avatar-hover">
-                        <img data-original="<?php echo $value['avatar'];?>" src="<?php echo siteUrl('image/common/noimg.svg');?>" class="lazyload upload" data-cate="singer">
+                        <img data-original="<?php echo $value['avatar']?mediaUrl($value['avatar'], 400):'';?>" src="<?php echo siteUrl('image/common/noimg.svg');?>" class="lazyload upload" data-cate="singer">
                     </div>
                 </td>
                 <td><?php echo $value['name'];?></td>

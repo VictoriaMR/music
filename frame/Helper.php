@@ -80,7 +80,7 @@ function mediaUrl($url, $width=''){
 		$ext = pathinfo($url, PATHINFO_EXTENSION);
 		$url = str_replace('.'.$ext, DS.$width.'.'.$ext, $url);
 	}
-	$url = trim($url, DS);
+	$url = trim(config('env', 'FILE_CENTER').DS.$url, DS);
 	return APP_DOMAIN.$url.'?v='.config('env', 'APP_VERSION');
 }
 function isCli(){
