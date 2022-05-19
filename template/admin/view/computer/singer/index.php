@@ -28,11 +28,12 @@
             <tr>
                 <th width="120">ID</th>
                 <th width="120">分组</th>
-                <th width="250">头像</th>
-                <th width="250">名称</th>
+                <th width="150">头像</th>
+                <th width="250">名称(ZH)</th>
+                <th width="250">名称(EN)</th>
                 <th width="150">状态</th>
-                <th width="350">添加时间</th>
-                <th width="">操作</th>
+                <th width="200">添加时间</th>
+                <th>操作</th>
             </tr>
             <?php if (empty($list)){ ?>
             <tr>
@@ -51,6 +52,7 @@
                     </div>
                 </td>
                 <td><?php echo $value['name'];?></td>
+                <td><?php echo $value['name_en'];?></td>
                 <td>
                     <div class="switch_botton" data-status="<?php echo $value['status'];?>">
                         <div class="switch_status <?php echo $value['status'] == 1 ? 'on' : 'off';?>"></div>
@@ -59,6 +61,7 @@
                 <td><?php echo $value['add_time'];?></td>
                 <td>
                     <button class="btn btn-primary btn-xs modify mt2" type="button"><i class="glyphicon glyphicon-edit"></i> 修改</button>
+                    <button class="btn btn-info btn-xs info mt2" type="button"><i class="glyphicon glyphicon-bookmark"></i> 详情</button>
                 </td>
             </tr>
             <?php } ?>
@@ -71,25 +74,21 @@
     <div class="mask"></div>
     <div class="centerShow">
         <form class="form-horizontal">
-            <input type="hidden" name="mem_id" class="no_show" value="0">
-            <input type="hidden" class="no_replace" name="opn" value="editInfo">
+            <input type="hidden" name="singer_id" class="no_show" value="0">
+            <input type="hidden" name="opn" value="editInfo">
             <button type="button" class="close" aria-hidden="true">&times;</button>
-            <div class="f24 dealbox-title">新增管理员</div>
+            <div class="f24 dealbox-title">歌手管理</div>
             <div class="input-group">
-                <div class="input-group-addon"><span>名称</span></div>
-                <input type="text" class="form-control" name="name" required="required" maxlength="30" autocomplete="off">
+                <div class="input-group-addon"><span>名称(ZH)</span></div>
+                <input type="text" class="form-control" name="name" required="required" maxlength="30" autocomplete="off" placeholder="歌手中文名称">
             </div>
             <div class="input-group">
-                <div class="input-group-addon"><span>昵称</span></div>
-                <input type="text" class="form-control" name="nickname" required="required" maxlength="30" autocomplete="off">
+                <div class="input-group-addon"><span>名称(EN)</span></div>
+                <input type="text" class="form-control" name="name_en" required="required" maxlength="30" autocomplete="off" placeholder="歌手英文名称">
             </div>
             <div class="input-group">
-                <div class="input-group-addon"><span>手机号码</span></div>
-                <input type="text" class="form-control" name="mobile" required="required" maxlength="11" autocomplete="off">
-            </div>
-            <div class="input-group">
-                <div class="input-group-addon"><span>邮箱</span></div>
-                <input type="text" class="form-control" name="email" required="required" maxlength="30" autocomplete="off">
+                <div class="input-group-addon"><span>分组</span></div>
+                <input type="text" class="form-control" name="group" required="required" maxlength="30" autocomplete="off">
             </div>
             <div class="input-group">
                 <div class="input-group-addon"><span>状态</span></div>
@@ -97,18 +96,6 @@
                     <div class="switch_status off"></div>
                 </div>
                 <input type="hidden" name="status" value="0">
-            </div>
-            <div class="input-group hidden">
-                <div class="input-group-addon"><span>盐值</span></div>
-                <input type="text" class="form-control" readonly="readonly" name="salt">
-            </div>
-            <div class="input-group">
-                <div class="input-group-addon"><span>密码</span></div>
-                <input type="password" class="form-control" name="password" maxlength="30" autocomplete="off">
-            </div>
-            <div class="input-group">
-                <div class="input-group-addon"><span>重复密码</span></div>
-                <input type="password" class="form-control" name="repassword" maxlength="30" autocomplete="off">
             </div>
             <button type="button" class="btn btn-primary btn-lg btn-block save">确认</button>
         </form>

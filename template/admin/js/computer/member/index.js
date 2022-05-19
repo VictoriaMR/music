@@ -1,12 +1,13 @@
 $(function(){
 	MEMBERLIST.init();
 });
-const MEMBERLIST = {
+var MEMBERLIST = {
 	init: function() {
+		var _this = this;
 		$('#add-data-btn').on('click', function(){
-			const obj = $(this);
+			var obj = $(this);
 			obj.button('loading');
-			MEMBERLIST.initDealbox(0, function(){
+			_this.initDealbox(0, function(){
 				obj.button('reset');
 			});
 		});
@@ -20,43 +21,43 @@ const MEMBERLIST = {
 			});
 		});
 		$('#dealbox .switch_botton').on('click', function(){
-			let status = $(this).data('status');
-			status = status == 0 ? 1 : 0;
+			let status = $(this).data('status') ? 0 : 1;
 			$(this).switchBtn(status);
 			$(this).next().val(status);
 		});
 		//改变状态按钮
 		$('#data-list .switch_botton').on('click', function(){
-			const obj = $(this);
-			const status = obj.data('status') == 0 ? 1 : 0;
+			var obj = $(this);
+			var status = obj.data('status') ? 0 : 1;
 			post(URI+'member', {opn:'modify', mem_id: $(this).parents('tr').data('id'), status: status}, function(data) {
 				obj.switchBtn(status);
 			});
 		});
 		//修改
 		$('#data-list .btn.modify').on('click', function(){
-			const obj = $(this);
+			var obj = $(this);
 			obj.button('loading');
-			MEMBERLIST.initDealbox(obj.parents('tr').data('id'), function(){
+			_this.initDealbox(obj.parents('tr').data('id'), function(){
 				obj.button('reset');
 			});
 		});
 	},
 	initDealbox: function(mem_id, callback) {
+		var _this = this;
 		if (mem_id) {
 			post(URI+'member', {opn:'getInfo', mem_id: mem_id}, function(data) {
-				MEMBERLIST.dealboxData(data, callback);
+				_this.dealboxData(data, callback);
 			});
 		} else {
-			MEMBERLIST.dealboxData({}, callback);
+			_this.dealboxData({}, callback);
 		}
 	},
 	dealboxData: function(data, callback) {
-		const obj = $('#dealbox');
+		var obj = $('#dealbox');
 		obj.find('input:not(.no_replace)').val('');
 		if (data) {
 			obj.find('.dealbox-title').text('编辑管理员');
-			for (const i in data) {
+			for (var i in data) {
 				obj.find('[name="'+i+'"]').val(data[i]);
 				obj.find('[name="'+i+'"]:not(.no_show)').show();
 			}

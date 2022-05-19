@@ -41,6 +41,7 @@ class Base
 
 	protected function view($cache=false)
 	{
+		if (IS_ADMIN) $this->_init();
 		return make('frame/View')->display('', true, $cache);
 	}
 }

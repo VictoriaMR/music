@@ -19,7 +19,7 @@ class Singer extends AdminBase
 	{
 		if (request()->isPost()) {
 			$opn = ipost('opn');
-			if (in_array($opn, ['editInfo'])) {
+			if (in_array($opn, ['editInfo', 'getInfo'])) {
 				$this->$opn();
 			}
 			$this->error('非法请求');
@@ -54,7 +54,6 @@ class Singer extends AdminBase
 		$this->assign('total', $total ?? 0);
 		$this->assign('size', $size);
 		$this->assign('list', $list ?? []);
-		$this->_init();
 		$this->view();
 	}
 
@@ -62,9 +61,13 @@ class Singer extends AdminBase
 	{
 		$id = (int)ipost('id');
 		$avatar = trim(ipost('avatar', ''));
+		$status = (int)ipost('status', -1);
 		$data = [];
 		if (!empty($avatar)) {
 			$data['avatar'] = $avatar;
+		}
+		if ($status >= 0) {
+			$data['status'] = $status;
 		}
 		if (empty($data)) {
 			$this->error('参数不正确');
@@ -82,13 +85,25 @@ class Singer extends AdminBase
 		}
 	}
 
+	protected function getInfo()
+	{
+		$id = (int)ipost('id');
+		if ($id <= 0) {
+			$this->error('参数不正确');
+		}
+		$info = make('app/service/singer/Singer')->loadData($id);
+		if (empty($info)) {
+			$this->error('数据不存在');
+		}
+		$this->success($info, '');
+	}
+
 	public function info()
 	{
 		html()->addCss();
 		html()->addJs();
 
 
-		$this->_init();
 		$this->view();	
 	}
 }

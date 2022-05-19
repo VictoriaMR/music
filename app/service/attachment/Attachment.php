@@ -37,7 +37,7 @@ class Attachment extends Base
 		return $this->urlInfo($info);
 	}
 
-	public function urlInfo($info, $width='400')
+	public function urlInfo($info, $width='')
 	{
 		$info['url'] = mediaUrl($info['cate'].DS.$info['name'].($width == '' ? '' : DS.$width).'.'.$info['type']);
 		return $info;

@@ -6,7 +6,7 @@ class Image
 {
 	const FONTFILE = ROOT_PATH . 'public' . DS . 'font' . DS . 'fzht.ttf';
 
-	public function verifyCode($code, $width = 80, $height = 40)
+	public function verifyCode($code, $width=80, $height=40)
 	{
 		if (empty($code)) return false;
 		//创建画布
@@ -67,7 +67,7 @@ class Image
 		return true;
 	}
 
-	public function compressImg($src, $moveto = '', $percent = 1)
+	public function compressImg($src, $moveto='', $percent=1)
 	{
 		if (!extension_loaded('gd')) {
 			return false;
@@ -124,7 +124,7 @@ class Image
 		return true;
 	}
 
-	public function thumbImage($src, $moveto, $outputWidth = 600, $outputHeight = 600)
+	public function thumbImage($src, $moveto, $outputWidth=600, $outputHeight=600)
 	{
 		if (!extension_loaded('gd')) {
 			return false;
@@ -177,9 +177,9 @@ class Image
 		$src_h = $srcImageHeight;
 
 		if ($srcImageWidth > $srcImageHeight) {
-			$ratio = $outputWidth / $srcImageWidth;
-		} else {
 			$ratio = $outputHeight / $srcImageHeight;
+		} else {
+			$ratio = $outputWidth / $srcImageWidth;
 		}
 		//缩放后的真实宽高
 		$real_h = $srcImageHeight * $ratio;
@@ -188,15 +188,15 @@ class Image
 		$squareWidth = $real_w > $real_h ? $real_h : $real_w;
 
 		//目标起始
-		$diff_y = ($real_h - $squareWidth) / 2;
-		$diff_x = ($real_w - $squareWidth) / 2;
+		$diff_y = ($squareWidth - $real_h) / 2;
+		$diff_x = ($squareWidth - $real_w) / 2;
 
 		imagealphablending($returnPic, true);
 		imagesavealpha($returnPic, true);
 		$white = imagecolorallocatealpha($returnPic, 255, 255, 255, 127);//白色
 		imagefill($returnPic, 0, 0, $white);
 
-		imagecopyresampled($returnPic, $srcImage, $diff_x, $diff_y, $src_x, $src_y, $real_w, $real_h, $src_w, $src_h);
+		imagecopyresampled($returnPic, $srcImage, $diff_x, $diff_y, 0, 0, $real_w, $real_h, $src_w, $src_h);
 		$dirPath = dirname($moveto);
 		if (!is_dir($dirPath)) {
 			mkdir($dirPath, 0755, true);

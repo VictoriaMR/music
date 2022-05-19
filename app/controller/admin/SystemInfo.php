@@ -15,7 +15,6 @@ class SystemInfo extends AdminBase
 			'phpinfo' => 'PHP信息',
 		];
 		$this->_default = '服务器信息';
-		$this->_init();
 	}
 
 	public function index()

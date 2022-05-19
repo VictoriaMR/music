@@ -22,7 +22,6 @@ class Index extends AdminBase
 		$list = make('app/service/controller/Controller')->getList();
 		$this->assign('funcList', $list);
 		$this->assign('info', session()->get('admin_info'));
-		$this->_init();
 		$this->view();
 	}
 
@@ -31,8 +30,6 @@ class Index extends AdminBase
 		html()->addCss();
 		html()->addJs();
 
-
-		$this->_init();
 		$this->view();	
 	}
 }

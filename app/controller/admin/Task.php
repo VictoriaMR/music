@@ -14,7 +14,6 @@ class Task extends AdminBase
 			'index' => '定时任务管理',
 		];
 		$this->_default = '任务管理';
-		$this->_init();
 	}
 
 	public function index()

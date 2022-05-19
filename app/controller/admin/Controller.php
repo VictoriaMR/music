@@ -30,7 +30,6 @@ class Controller extends AdminBase
 		$iconList = make('app/service/controller/Icon')->getListData([], 'icon_id,name,remark', 0, 0, ['sort'=>'asc']);
 		$this->assign('iconList', $iconList);
 		$this->assign('list', $list);
-		$this->_init();
 		$this->view();
 	}
 
@@ -125,7 +124,6 @@ class Controller extends AdminBase
 		$list = make('app/service/controller/Icon')->getListData([], 'icon_id,name,sort,remark', 0, 0, ['sort'=>'asc']);
 
 		$this->assign('list', $list);
-		$this->_init();
 		$this->view();
 	}
 
